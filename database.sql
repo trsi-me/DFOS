@@ -86,6 +86,6 @@ INSERT INTO foods (name, description, price, category_id, image, calories, ingre
 ('بسبوسة', 'بسبوسة بالعسل', 18.00, 4, 'basbousa.jpg', 380, 'سميد، سكر، عسل، زبدة، جوز هند، ماء الورد', 'جوز، جلوتين'),
 ('شاي أخضر', 'شاي أخضر طبيعي منعش', 10.00, 1, 'green_tea.jpg', 2, 'أوراق شاي أخضر، ماء', NULL);
 
--- إنشاء حساب مدير (كلمة المرور: admin123)
+-- إنشاء حساب مدير (كلمة المرور: )
 INSERT INTO users (name, email, password, is_admin) VALUES 
-('مدير النظام', 'admin@dfos.com', '$2y$10$yeyfFjDlSB2BXO6yUNfh6.f4WTwUqONgU2lcvTbbQh1wCBd/ogLi2', 1);
+('مدير النظام', 'admin@dfos.com', '', 1);
